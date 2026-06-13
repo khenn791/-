@@ -182,6 +182,7 @@ pcall(function()
         end; 
     end); 
 end);
+print("khen.cc")
 local mt = getrawmetatable(game);
 local old = mt.__index;
 setreadonly(mt, false);
